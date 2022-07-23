@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+	
+    <link rel="stylesheet" href="styles\animate.css">
+	<link rel="stylesheet" href="styles\bootstrap-337.min.css">
+    <link rel="stylesheet" href="font-awsome\css\font-awesome.min.css">	
+	<link rel="stylesheet" type="text/css" href="styles\owl.carousel.min.css">
+    <link rel="stylesheet" href="styles\style.css">
+</head>
+<body>
+<header class="top"><!-- Top begin -->
+        <div class="topbar-menu-area" > <!-- Topbar begin -->
+
+            <div class="container"><!-- container begin -->
+
+                <div class="topbar-menu left-menu"><!-- topbar-menu left-menu begin -->
+                    <ul>
+                        <li class="menu-item">
+                            <a title="Hotline: (+123) 456 789" href="#"><span class="icon label-before fa fa-mobile"></span>Hotline: (+123) 456 789</a>
+                        </li>
+                    </ul>
+
+                </div><!-- topbar-menu left-menu finish -->
+
+                <div class="topbar-menu right-menu"><!-- topbar-menu right-menu begin -->
+                <ul>
+                    <li class="menu-item"><a title="Register or Login" href="#">Login</a></li>
+                    <li class="menu-item"><a title="Register or Login" href="#">Register</a></li>
+                    <li class="menu-item lang-menu menu-item-has-children parent">
+                    <a title="English" href="#"><span class="img label-before"><img src="images/lang-en.png" alt="lang-en"></span>English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul class="submenu lang" >
+										<li class="menu-item" ><a title="hungary" href="#"><span class="img label-before"><img src="images/lang-hun.png" alt="lang-hun"></span>Hungary</a></li>
+										<li class="menu-item" ><a title="german" href="#"><span class="img label-before"><img src="images/lang-ger.png" alt="lang-ger" ></span>German</a></li>
+										<li class="menu-item" ><a title="french" href="#"><span class="img label-before"><img src="images/lang-fra.png" alt="lang-fre"></span>French</a></li>
+										<li class="menu-item" ><a title="canada" href="#"><span class="img label-before"><img src="images/lang-can.png" alt="lang-can"></span>Canada</a></li>
+									</ul>
+                                </li>
+                    <li class="menu-item menu-item-has-children parent" >
+									<a title="Dollar (USD)" href="#">Birr (ETB)<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul class="submenu curency" >
+										<li class="menu-item" >
+											<a title="Pound (GBP)" href="#">Pound (GBP)</a>
+										</li>
+										<li class="menu-item" >
+											<a title="Euro (EUR)" href="#">Euro (EUR)</a>
+										</li>
+										<li class="menu-item" >
+											<a title="Dollar (USD)" href="#">Dollar (USD)</a>
+										</li>
+									</ul>
+								</li>
+                </ul>
+
+                </div><!-- topbar-menu right-menu finish -->
+            </div><!-- continer finish -->
+
+        </div><!-- Topbar finish -->
+
+	<div class="navigation">
+        <div id="navbar" class="row"  ><!-- row start  style="background:red"-->
+
+    
+            <div class="container" >  <!-- image container begin -->
+             <div class="col-md-3"  > <!-- col-md-3 begin -->
+                   
+				<a href="index.html" class="link-to-home">
+                    <img src="images/ecom-store-logo.png" alt="mercado" class="hidden-xs">
+                    <img src="images/ecom-store-logo-mobile.png" alt="mercado" class="visible-xs">
+                        
+                </a>
+		    </div><!-- col-md-3 finish -->	
+                	
+				<div class="col-md-4 wrap-icon"  > <!-- cart icon begin-->
+				
+				<div class="wrap-icon-section wishlist">
+								<a href="#" class="link-direction">
+									<i class="fa fa-heart" aria-hidden="true"></i>
+									<div class="left-info">
+										<span class="index">0 item</span>
+										<span class="title">Wishlist</span>
+									</div>
+								</a>
+							</div>
+							<div class="wrap-icon-section minicart">
+								<a href="#" class="link-direction">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+									<div class="left-info">
+										<span class="index">4 items</span>
+										<span class="title">CART</span>
+									</div>
+								</a>
+							</div>
+
+							<div class="wrap-icon-section show-up-after-1024">
+								<a href="#" class="mobile-navigation">
+									<span></span>
+									<span></span>
+									<span></span>
+								</a>
+							</div>
+
+
+
+				
+				</div><!-- cart icon finish-->
+              			
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <i class="fa fa-align-justify"></i>
+                </button>
+
+					
+               
+                
+                <div class="wrap-search center-section" >
+							<div class="wrap-search-form" >
+                            <input type="text" name="search" value="" placeholder="Search here...">
+									<button form="form-search-top" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    <div class="wrap-list-cate">
+										<input type="hidden" name="product-cate" value="0" id="product-cate">
+										<a href="#" class="link-control">All Category</a>
+										<ul class="list-cate">
+											<li class="level-0">All Category</li>
+											<li class="level-1">-Electronics</li>
+											<li class="level-2">Batteries & Chargens</li>
+											<li class="level-2">Headphone & Headsets</li>
+											<li class="level-2">Mp3 Player & Acessories</li>
+											<li class="level-1">-Smartphone & Table</li>
+											<li class="level-2">Batteries & Chargens</li>
+											<li class="level-2">Mp3 Player & Headphones</li>
+											<li class="level-2">Table & Accessories</li>
+											<li class="level-1">-Electronics</li>
+											<li class="level-2">Batteries & Chargens</li>
+											<li class="level-2">Headphone & Headsets</li>
+											<li class="level-2">Mp3 Player & Acessories</li>
+											<li class="level-1">-Smartphone & Table</li>
+											<li class="level-2">Batteries & Chargens</li>
+											<li class="level-2">Mp3 Player & Headphones</li>
+											<li class="level-2">Table & Accessories</li>
+										</ul>
+									</div>		
+                                </div>
+                          </div>
+            </div><!-- image container finish -->
+        </div><!-- row finish -->
+         <div class="navbar-collapse collapse" id="navigation">
+            <div class="primary-nav-section" > <!-- navigation bar start -->
+						<div class="container">
+							<ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
+								<li class="menu-item home-icon">
+									<a href="index.html" class="link-term mercado-item-title" ><i class="fa fa-home" aria-hidden="true"></i></a>
+								</li>
+								<li class="menu-item">
+									<a href="cart.html" class="link-term mercado-item-title">Cart</a>
+								</li>
+								<li class="menu-item">
+									<a href="shop.php" class="link-term mercado-item-title">Shop</a>
+								</li>
+								<li class="menu-item">
+									<a href="checkout.html" class="link-term mercado-item-title">Checkout</a>
+								</li>
+								<li class="menu-item">
+									<a href="about-us.html" class="link-term mercado-item-title">About Us</a>
+								</li>
+								<li class="menu-item">
+									<a href="contact-us.html" class="link-term mercado-item-title">Contact Us</a>
+								</li>																	
+							</ul>
+						</div>
+					</div><!-- navigation bar finish -->
+              </div>
+</header><!-- Top finish -->
+
+
+
+
+        <!-- link to locate from one page to another -->
+<div id="content"> <!-- content begin -->
+    <div class="container"> <!-- container begin -->
+        <div class="col-md-12"><!-- col-md-12 begin -->
+            <ul class="breadcrumb"><!-- breadcrumb begin -->
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    Shop
+                </li>
+            </ul><!-- breadcrumb finish -->
+        </div><!-- col-md-12 finish -->
+
+        <!-- sidebar begin -->
+ 
+         <div class="col-lg-3 col-md-4 col-sm-4 col-xs-18 sitebar" ><!-- sitebar begin -->
+                <div class="widget mercado-widget categories-widget"><!-- categories-widget begin -->
+                    <h2 class="widget-title">All Categories</h2>
+                     <div class="widget-content"><!-- widget-content begin -->
+                     <ul class="list-category">
+								<li class="category-item has-child-cate">
+									<a href="#" class="cate-link">Fashion & Accessories</a>
+									<span class="toggle-control">+</span>
+									<ul class="sub-cate">
+										<li class="category-item"><a href="#" class="cate-link">Batteries (22)</a></li>
+										<li class="category-item"><a href="#" class="cate-link">Headsets (16)</a></li>
+										<li class="category-item"><a href="#" class="cate-link">Screen (28)</a></li>
+									</ul>
+								</li>
+                                <li class="category-item has-child-cate">
+									<a href="#" class="cate-link">Furnitures & Home Decors</a>
+									<span class="toggle-control">+</span>
+									<ul class="sub-cate">
+										<li class="category-item"><a href="#" class="cate-link">Batteries (22)</a></li>
+										<li class="category-item"><a href="#" class="cate-link">Headsets (16)</a></li>
+										<li class="category-item"><a href="#" class="cate-link">Screen (28)</a></li>
+									</ul>
+								</li>
+								<li class="category-item has-child-cate">
+									<a href="#" class="cate-link">Digital & Electronics</a>
+									<span class="toggle-control">+</span>
+									<ul class="sub-cate">
+										<li class="category-item"><a href="#" class="cate-link">Batteries (22)</a></li>
+										<li class="category-item"><a href="#" class="cate-link">Headsets (16)</a></li>
+										<li class="category-item"><a href="#" class="cate-link">Screen (28)</a></li>
+									</ul>
+								</li>
+								<li class="category-item">
+									<a href="#" class="cate-link">Tools & Equipments</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="cate-link">Kid’s Toys</a>
+								</li>
+								<li class="category-item">
+									<a href="#" class="cate-link">Organics & Spa</a>
+								</li>
+                       </ul>
+                     </div> <!-- widget-content finish -->
+                </div><!-- categories-widget finish -->
+				<div class="widget mercado-widget filter-widget brand-widget">
+						<h2 class="widget-title">Brand</h2>
+						<div class="widget-content">
+							<ul class="list-style vertical-list list-limited" data-show="6">
+								<li class="list-item"><a class="filter-link active" href="#">Fashion Clothings</a></li>
+								<li class="list-item"><a class="filter-link " href="#">Laptop Batteries</a></li>
+								<li class="list-item"><a class="filter-link " href="#">Printer & Ink</a></li>
+								<li class="list-item"><a class="filter-link " href="#">CPUs & Prosecsors</a></li>
+								<li class="list-item"><a class="filter-link " href="#">Sound & Speaker</a></li>
+								<li class="list-item"><a class="filter-link " href="#">Shop Smartphone & Tablets</a></li>
+								<li class="list-item default-hiden"><a class="filter-link " href="#">Printer & Ink</a></li>
+								<li class="list-item default-hiden"><a class="filter-link " href="#">CPUs & Prosecsors</a></li>
+								<li class="list-item default-hiden"><a class="filter-link " href="#">Sound & Speaker</a></li>
+								<li class="list-item default-hiden"><a class="filter-link " href="#">Shop Smartphone & Tablets</a></li>
+								<li class="list-item"><a data-label='Show less<i class="fa fa-angle-up" aria-hidden="true"></i>' class="btn-control control-show-more" href="#">Show more<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div><!-- brand widget-->
+				
+					<div class="widget mercado-widget widget-product" style="backgroud:red">
+					<h2 class="widget-title">Popular Products</h2>
+						<div class="widget-contents">
+							<ul class="products">
+								<li class="product-item">
+								<div class="product product-widget-style">
+										<div class="thumbnnail">
+											<a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+												<figure><img src="images/products/digital_01.jpg" alt=""></figure>
+											</a>
+										</div>
+										<div class="product-info">
+											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker...</span></a>
+											<div class="wrap-price"><span class="product-price">$168.00</span></div>
+										</div>
+									</div>
+								</li>
+								<li class="product-item">
+								<div class="product product-widget-style">
+										<div class="thumbnnail">
+											<a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+												<figure><img src="images/products/digital_17.jpg" alt=""></figure>
+											</a>
+										</div>
+										<div class="product-info">
+											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker...</span></a>
+											<div class="wrap-price"><span class="product-price">$168.00</span></div>
+										</div>
+									</div>
+								</li>
+								<li class="product-item">
+								<div class="product product-widget-style">
+										<div class="thumbnnail">
+											<a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+												<figure><img src="images/products/digital_18.jpg" alt=""></figure>
+											</a>
+										</div>
+										<div class="product-info">
+											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker...</span></a>
+											<div class="wrap-price"><span class="product-price">$168.00</span></div>
+										</div>
+									</div>
+								</li>
+								<li class="product-item">
+								<div class="product product-widget-style">
+										<div class="thumbnnail">
+											<a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+												<figure><img src="images/products/digital_20.jpg" alt=""></figure>
+											</a>
+										</div>
+										<div class="product-info">
+											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker...</span></a>
+											<div class="wrap-price"><span class="product-price">$168.00</span></div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						</div>
+
+					
+         </div><!-- sitebar finish -->
+        
+                       <!-- sidebar finish -->
+
+			<div class=" col-md-9 singles"> <!-- col-md-9 begin -->
+					<div class="box" id="shop-box"><!-- box begin -->
+						<a href="#" class="banner-link">
+							<img src="images/products/megamenu_tool_equiment_banner_1.jpg" alt="">
+						</a>
+					</div><!-- box finish -->
+					<div class="row log" id="bani"><!-- row begin -->
+						<div class="col-md-4 col-sm-6 center-responsive"><!-- center-responsive begin -->
+						<div class="product"><!--product  begin -->
+					<a href="" class="">
+						<img src="images/products/fashion_01.jpg" alt="" data-fancybox-group="gallery" class="img-responsive">
+					</a>
+
+				<div class="text">
+					<h3>
+						<a href="">
+							Logo T-Shirt
+						</a>
+					</h3>
+					<p class="price">$30</p>
+					<p class="button">
+						<a href="" class="btn btn-default">View Details</a>
+						<a href="" class="btn btn-primary">
+							<i class="fa fa-shopping-cart">
+								Add To Cart
+							</i>
+						</a>
+					</p>
+				</div>
+				</div><!--product finish -->
+						</div><!-- center-responsive finish -->
+						<div class="col-md-4 col-sm-6 center-responsive"><!-- center-responsive begin -->
+						<div class="product"><!--product  begin -->
+					<a href="" class="">
+						<img src="images/products/fashion_02.jpg" alt="" data-fancybox-group="gallery" class="img-responsive">
+					</a>
+
+				<div class="text">
+					<h3>
+						<a href="">
+							Logo T-Shirt
+						</a>
+					</h3>
+					<p class="price">$30</p>
+					<p class="button">
+						<a href="" class="btn btn-default">View Details</a>
+						<a href="" class="btn btn-primary">
+							<i class="fa fa-shopping-cart">
+								Add To Cart
+							</i>
+						</a>
+					</p>
+				</div>
+				</div><!--product finish -->
+						</div><!-- center-responsive finish -->
+						<div class="col-md-4 col-sm-6 center-responsive"><!-- center-responsive begin -->
+						<div class="product"><!--product  begin -->
+					<a href="" class="">
+						<img src="images/products/fashion_03.jpg" alt="" data-fancybox-group="gallery" class="img-responsive">
+					</a>
+
+				<div class="text">
+					<h3>
+						<a href="">
+							Logo T-Shirt
+						</a>
+					</h3>
+					<p class="price">$30</p>
+					<p class="button">
+						<a href="" class="btn btn-default">View Details</a>
+						<a href="" class="btn btn-primary">
+							<i class="fa fa-shopping-cart">
+								Add To Cart
+							</i>
+						</a>
+					</p>
+				</div>
+				</div><!--product finish -->
+						</div><!-- center-responsive finish -->
+						<div class="col-md-4 col-sm-6 center-responsive"><!-- center-responsive begin -->
+						<div class="product"><!--product  begin -->
+					<a href="" class="">
+						<img src="images/products/fashion_04.jpg" alt="" data-fancybox-group="gallery" class="img-responsive">
+					</a>
+
+				<div class="text">
+					<h3>
+						<a href="">
+							Logo T-Shirt
+						</a>
+					</h3>
+					<p class="price">$30</p>
+					<p class="button">
+						<a href="" class="btn btn-default">View Details</a>
+						<a href="" class="btn btn-primary">
+							<i class="fa fa-shopping-cart">
+								Add To Cart
+							</i>
+						</a>
+					</p>
+				</div>
+				</div><!--product finish -->
+						</div><!-- center-responsive finish -->
+						<div class="col-md-4 col-sm-6 center-responsive"><!-- center-responsive begin -->
+						<div class="product"><!--product  begin -->
+					<a href="" class="">
+						<img src="images/products/fashion_05.jpg" alt="" data-fancybox-group="gallery" class="img-responsive">
+					</a>
+
+				<div class="text">
+					<h3>
+						<a href="">
+							Logo T-Shirt
+						</a>
+					</h3>
+					<p class="price">$30</p>
+					<p class="button">
+						<a href="" class="btn btn-default">View Details</a>
+						<a href="" class="btn btn-primary">
+							<i class="fa fa-shopping-cart">
+								Add To Cart
+							</i>
+						</a>
+					</p>
+				</div>
+				</div><!--product finish -->
+						</div><!-- center-responsive finish -->
+						<div class="col-md-4 col-sm-6 center-responsive"><!-- center-responsive begin -->
+						<div class="product"><!--product  begin -->
+					<a href="" class="">
+						<img src="images/products/fashion_05.jpg" alt="" data-fancybox-group="gallery" class="img-responsive">
+					</a>
+
+				<div class="text">
+					<h3>
+						<a href="">
+							Logo T-Shirt
+						</a>
+					</h3>
+					<p class="price">$30</p>
+					<p class="button">
+						<a href="" class="btn btn-default">View Details</a>
+						<a href="" class="btn btn-primary">
+							<i class="fa fa-shopping-cart">
+								Add To Cart
+							</i>
+						</a>
+					</p>
+				</div>
+				</div><!--product finish -->
+						</div><!-- center-responsive finish -->
+						<div class="col-md-4 col-sm-6 center-responsive"><!-- center-responsive begin -->
+						<div class="product"><!--product  begin -->
+					<a href="" class="">
+						<img src="images/products/fashion_05.jpg" alt="" data-fancybox-group="gallery" class="img-responsive">
+					</a>
+
+				<div class="text">
+					<h3>
+						<a href="">
+							Logo T-Shirt
+						</a>
+					</h3>
+					<p class="price">$30</p>
+					<p class="button">
+						<a href="" class="btn btn-default">View Details</a>
+						<a href="" class="btn btn-primary">
+							<i class="fa fa-shopping-cart">
+								Add To Cart
+							</i>
+						</a>
+					</p>
+				</div>
+				</div><!--product finish -->
+						</div><!-- center-responsive finish -->
+						<div class="col-md-4 col-sm-6 center-responsive"><!-- center-responsive begin -->
+						<div class="product"><!--product  begin -->
+					<a href="" class="">
+						<img src="images/products/fashion_05.jpg" alt="" data-fancybox-group="gallery" class="img-responsive">
+					</a>
+
+				<div class="text">
+					<h3>
+						<a href="">
+							Logo T-Shirt
+						</a>
+					</h3>
+					<p class="price">$30</p>
+					<p class="button">
+						<a href="" class="btn btn-default">View Details</a>
+						<a href="" class="btn btn-primary">
+							<i class="fa fa-shopping-cart">
+								Add To Cart
+							</i>
+						</a>
+					</p>
+				</div>
+				</div><!--product finish -->
+						</div><!-- center-responsive finish -->
+						<div class="col-md-4 col-sm-6 center-responsive"><!-- center-responsive begin -->
+						<div class="product"><!--product  begin -->
+					<a href="" class="">
+						<img src="images/products/fashion_06.jpg" alt="" data-fancybox-group="gallery" class="img-responsive">
+					</a>
+
+				<div class="text">
+					<h3>
+						<a href="">
+							Logo T-Shirt
+						</a>
+					</h3>
+					<p class="price">$30</p>
+					<p class="button">
+						<a href="" class="btn btn-default">View Details</a>
+						<a href="" class="btn btn-primary">
+							<i class="fa fa-shopping-cart">
+								Add To Cart
+							</i>
+						</a>
+					</p>
+				</div>
+				</div><!--product finish -->
+						</div><!-- center-responsive finish -->
+					</div><!-- row finish -->
+			</div><!-- col-md-9 finish -->
+			<div class="wrap-pagination-info">
+			<center>
+				<ul class="page-numbers">
+					
+					<li><a class="page-number-item current"   href="#">1</a></li>
+					<li><a class="page-number-item" href="#">2</a></li>
+					<li><a class="page-number-item" href="#">3</a></li>
+					<li><a class="page-number-item" href="#">4</a></li>
+					<li><a class="page-number-item" href="#">5</a></li>
+					<li><a class="page-number-item" href="#">Last page</a></li>
+				</ul>
+			</center>
+			</div>
+		</div><!-- container finish -->
+</div> <!-- content finish -->
+
+
+
+<footer> <!-- footer begin -->
+
+	<div id="footer" >
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-md-3">
+			<h4>Pages</h4>
+			<ul><!-- ul Begin -->
+                    <li><a href="cart.php">Shopping Cart</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="shop.php">Shop</a></li>
+                    <li><a href="customer/my_account.php">My Account</a></li>
+                </ul><!-- ul Finish -->
+				<hr>
+				<h4>User Section</h4>
+				<ul><!-- ul Begin -->        
+                    <li><a href="customer_register.php">Register</a></li>
+                    <li><a href="terms.php">Terms & Conditions</a></li>
+                </ul><!-- ul Finish -->
+				   
+                <hr class="hidden-md hidden-lg hidden-sm">
+	</div><!-- col-sm-6 col-md-3 Finish -->
+	<div class="com-sm-6 col-md-3"><!-- col-sm-6 col-md-3 Begin -->
+                
+                <h4>Top Products Categories</h4>
+                
+                <ul><!-- ul Begin -->
+				</ul><!-- ul Finish -->
+                
+                <hr class="hidden-md hidden-lg">
+                
+            </div><!-- col-sm-6 col-md-3 Finish -->
+			<div class="col-sm-6 col-md-3"><!-- col-sm-6 col-md-3 Begin -->
+                
+                <h4>Find Us</h4>
+                
+                <p><!-- p Start -->
+                    
+                    <strong>Fike.T Media inc.</strong>
+                    <br/>Cibubur
+                    <br/>Ciracas
+                    <br/>+251-969-06-45-48
+                    <br/>ftaye781@gmail.com
+                    <br/><strong>FikeT</strong>
+                    
+                </p><!-- p Finish -->
+                
+                <a href="contact.php">Check Our Contact Page</a>
+                
+                <hr class="hidden-md hidden-lg">
+                
+            </div><!-- col-sm-6 col-md-3 Finish -->
+			<div class="col-sm-6 col-md-3">
+                
+                <h4>Get The News</h4>
+                
+                <p class="text-muted">
+                    Dont miss our latest update products.
+                </p>
+                
+                <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=M-devMedia', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" method="post"><!-- form begin -->
+                    <div class="input-group"><!-- input-group begin -->
+                        
+                        <input type="text" class="form-control" name="email">
+                        
+                        <input type="hidden" value="M-devMedia" name="uri"/><input type="hidden" name="loc" value="en_US"/>
+                        
+                        <span class="input-group-btn"><!-- input-group-btn begin -->
+                            
+                            <input type="submit" value="subscribe" class="btn btn-default">
+                            
+                        </span><!-- input-group-btn Finish -->
+                        
+                    </div><!-- input-group Finish -->
+                </form><!-- form Finish -->
+                
+                <hr>
+                
+                <h4>Keep In Touch</h4>
+                
+                <p class="social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-google-plus"></a>
+                    <a href="#" class="fa fa-envelope"></a>
+                </p>
+                
+            </div>
+		</div>
+	</div>
+</div>
+
+			
+<div id="copyright"><!-- #copyright Begin -->
+    <div class="container"><!-- container Begin -->
+        <div class="col-md-6"><!-- col-md-6 Begin -->
+            
+            <p class="pull-left">&copy; 2022 E-commerce All Rights Reserve</p>
+            
+        </div><!-- col-md-6 Finish -->
+        <div class="col-md-6"><!-- col-md-6 Begin -->
+            
+            <p class="pull-right">Theme by: <a href="#">Fike.T</a></p>
+            
+        </div><!-- col-md-6 Finish -->
+    </div><!-- container Finish -->
+</div><!-- #copyright Finish -->		
+</footer><!-- footer finish -->
+
+
+
+<script src="js/jquery-331.min.js"> </script>
+<script src="js/bootstrap-337.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+</body>
+</html>
+
+<script>
+    window.onscroll = function(){myFunction()};
+
+    var navbar = document.getElementById("navigation");
+
+    var sticky = navbar.offsetTop;
+
+    function myFunction(){
+        if (window.pageYOffset>=sticky){
+            navbar.classList.add("sticky")
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+        }
+    
+</script> 
